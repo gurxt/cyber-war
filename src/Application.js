@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 /* internal component imports */
 import TitlePage from './components/title-page'
+import Figure from './components/figure'
 /* internal css import */
 import ApplicationCSS from './assets/styled/application-css'
 /* create insstance of ApplicationCSS */
@@ -13,7 +14,8 @@ const Application = () => {
 
     return (
         <CSS.C>
-            <TitlePage />
+            { /* <TitlePage /> */ }
+            <Figure />
         </CSS.C>
     )
 }
